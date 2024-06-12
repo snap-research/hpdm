@@ -1,1 +1,1601 @@
-The website is coming soon. You can find the paper <a href="https://github.com/snap-research/hpdm/blob/main/hpdm.pdf">here</a>.
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost:4000/hpdm -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+  document.write(
+    '<script src="http://' +
+    (location.host || 'localhost').split(':')[0] +
+    ':35729/livereload.js?snipver=1&amp;port=35729"' +
+    '></' +
+    'script>');
+</script><script src="./hpdm-web_files/livereload.js"></script>
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style type="text/css">.CtxtMenu_InfoClose {  top:.2em; right:.2em;}
+.CtxtMenu_InfoContent {  overflow:auto; text-align:left; font-size:80%;  padding:.4em .6em; border:1px inset; margin:1em 0px;  max-height:20em; max-width:30em; background-color:#EEEEEE;  white-space:normal;}
+.CtxtMenu_Info.CtxtMenu_MousePost {outline:none;}
+.CtxtMenu_Info {  position:fixed; left:50%; width:auto; text-align:center;  border:3px outset; padding:1em 2em; background-color:#DDDDDD;  color:black;  cursor:default; font-family:message-box; font-size:120%;  font-style:normal; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 15px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius:15px;               /* Safari and Chrome */  -moz-border-radius:15px;                  /* Firefox */  -khtml-border-radius:15px;                /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true"); /* IE */}
+</style><style type="text/css">.CtxtMenu_MenuClose {  position:absolute;  cursor:pointer;  display:inline-block;  border:2px solid #AAA;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  font-family: "Courier New", Courier;  font-size:24px;  color:#F0F0F0}
+.CtxtMenu_MenuClose span {  display:block; background-color:#AAA; border:1.5px solid;  border-radius:18px;  -webkit-border-radius: 18px;             /* Safari and Chrome */  -moz-border-radius: 18px;                /* Firefox */  -khtml-border-radius: 18px;              /* Konqueror */  line-height:0;  padding:8px 0 6px     /* may need to be browser-specific */}
+.CtxtMenu_MenuClose:hover {  color:white!important;  border:2px solid #CCC!important}
+.CtxtMenu_MenuClose:hover span {  background-color:#CCC!important}
+.CtxtMenu_MenuClose:hover:focus {  outline:none}
+</style><style type="text/css">.CtxtMenu_Menu {  position:absolute;  background-color:white;  color:black;  width:auto; padding:5px 0px;  border:1px solid #CCCCCC; margin:0; cursor:default;  font: menu; text-align:left; text-indent:0; text-transform:none;  line-height:normal; letter-spacing:normal; word-spacing:normal;  word-wrap:normal; white-space:nowrap; float:none; z-index:201;  border-radius: 5px;                     /* Opera 10.5 and IE9 */  -webkit-border-radius: 5px;             /* Safari and Chrome */  -moz-border-radius: 5px;                /* Firefox */  -khtml-border-radius: 5px;              /* Konqueror */  box-shadow:0px 10px 20px #808080;         /* Opera 10.5 and IE9 */  -webkit-box-shadow:0px 10px 20px #808080; /* Safari 3 & Chrome */  -moz-box-shadow:0px 10px 20px #808080;    /* Forefox 3.5 */  -khtml-box-shadow:0px 10px 20px #808080;  /* Konqueror */}
+.CtxtMenu_MenuItem {  padding: 1px 2em;  background:transparent;}
+.CtxtMenu_MenuArrow {  position:absolute; right:.5em; padding-top:.25em; color:#666666;  font-family: null; font-size: .75em}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {color:white}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {left:.5em; right:auto}
+.CtxtMenu_MenuCheck {  position:absolute; left:.7em;  font-family: null}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL { right:.7em; left:auto }
+.CtxtMenu_MenuRadioCheck {  position:absolute; left: .7em;}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {  right: .7em; left:auto}
+.CtxtMenu_MenuInputBox {  padding-left: 1em; right:.5em; color:#666666;  font-family: null;}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {  left: .1em;}
+.CtxtMenu_MenuComboBox {  left:.1em; padding-bottom:.5em;}
+.CtxtMenu_MenuSlider {  left: .1em;}
+.CtxtMenu_SliderValue {  position:absolute; right:.1em; padding-top:.25em; color:#333333;  font-size: .75em}
+.CtxtMenu_SliderBar {  outline: none; background: #d3d3d3}
+.CtxtMenu_MenuLabel {  padding: 1px 2em 3px 1.33em;  font-style:italic}
+.CtxtMenu_MenuRule {  border-top: 1px solid #DDDDDD;  margin: 4px 3px;}
+.CtxtMenu_MenuDisabled {  color:GrayText}
+.CtxtMenu_MenuActive {  background-color: #606872;  color: white;}
+.CtxtMenu_MenuDisabled:focus {  background-color: #E8E8E8}
+.CtxtMenu_MenuLabel:focus {  background-color: #E8E8E8}
+.CtxtMenu_ContextMenu:focus {  outline:none}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {  outline:none}
+.CtxtMenu_SelectionMenu {  position:relative; float:left;  border-bottom: none; -webkit-box-shadow:none; -webkit-border-radius:0px; }
+.CtxtMenu_SelectionItem {  padding-right: 1em;}
+.CtxtMenu_Selection {  right: 40%; width:50%; }
+.CtxtMenu_SelectionBox {  padding: 0em; max-height:20em; max-width: none;  background-color:#FFFFFF;}
+.CtxtMenu_SelectionDivider {  clear: both; border-top: 2px solid #000000;}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {  top:-10px; left:-10px}
+</style><style id="MJX-CHTML-styles">
+mjx-container[jax="CHTML"] {
+  line-height: 0;
+}
+
+mjx-container [space="1"] {
+  margin-left: .111em;
+}
+
+mjx-container [space="2"] {
+  margin-left: .167em;
+}
+
+mjx-container [space="3"] {
+  margin-left: .222em;
+}
+
+mjx-container [space="4"] {
+  margin-left: .278em;
+}
+
+mjx-container [space="5"] {
+  margin-left: .333em;
+}
+
+mjx-container [rspace="1"] {
+  margin-right: .111em;
+}
+
+mjx-container [rspace="2"] {
+  margin-right: .167em;
+}
+
+mjx-container [rspace="3"] {
+  margin-right: .222em;
+}
+
+mjx-container [rspace="4"] {
+  margin-right: .278em;
+}
+
+mjx-container [rspace="5"] {
+  margin-right: .333em;
+}
+
+mjx-container [size="s"] {
+  font-size: 70.7%;
+}
+
+mjx-container [size="ss"] {
+  font-size: 50%;
+}
+
+mjx-container [size="Tn"] {
+  font-size: 60%;
+}
+
+mjx-container [size="sm"] {
+  font-size: 85%;
+}
+
+mjx-container [size="lg"] {
+  font-size: 120%;
+}
+
+mjx-container [size="Lg"] {
+  font-size: 144%;
+}
+
+mjx-container [size="LG"] {
+  font-size: 173%;
+}
+
+mjx-container [size="hg"] {
+  font-size: 207%;
+}
+
+mjx-container [size="HG"] {
+  font-size: 249%;
+}
+
+mjx-container [width="full"] {
+  width: 100%;
+}
+
+mjx-box {
+  display: inline-block;
+}
+
+mjx-block {
+  display: block;
+}
+
+mjx-itable {
+  display: inline-table;
+}
+
+mjx-row {
+  display: table-row;
+}
+
+mjx-row > * {
+  display: table-cell;
+}
+
+mjx-mtext {
+  display: inline-block;
+}
+
+mjx-mstyle {
+  display: inline-block;
+}
+
+mjx-merror {
+  display: inline-block;
+  color: red;
+  background-color: yellow;
+}
+
+mjx-mphantom {
+  visibility: hidden;
+}
+
+_::-webkit-full-page-media, _:future, :root mjx-container {
+  will-change: opacity;
+}
+
+mjx-assistive-mml {
+  position: absolute !important;
+  top: 0px;
+  left: 0px;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 1px 0px 0px 0px !important;
+  border: 0px !important;
+  display: block !important;
+  width: auto !important;
+  overflow: hidden !important;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+mjx-assistive-mml[display="block"] {
+  width: 100% !important;
+}
+
+mjx-math {
+  display: inline-block;
+  text-align: left;
+  line-height: 0;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: none;
+  letter-spacing: normal;
+  border-collapse: collapse;
+  word-wrap: normal;
+  word-spacing: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1px 0;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="CHTML"][display="true"][width="full"] {
+  display: flex;
+}
+
+mjx-container[jax="CHTML"][display="true"] mjx-math {
+  padding: 0;
+}
+
+mjx-container[jax="CHTML"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="CHTML"][justify="right"] {
+  text-align: right;
+}
+
+mjx-msup {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-mn {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-c {
+  display: inline-block;
+}
+
+mjx-utext {
+  display: inline-block;
+  padding: .75em 0 .2em 0;
+}
+
+mjx-mo {
+  display: inline-block;
+  text-align: left;
+}
+
+mjx-stretchy-h {
+  display: inline-table;
+  width: 100%;
+}
+
+mjx-stretchy-h > * {
+  display: table-cell;
+  width: 0;
+}
+
+mjx-stretchy-h > * > mjx-c {
+  display: inline-block;
+  transform: scalex(1.0000001);
+}
+
+mjx-stretchy-h > * > mjx-c::before {
+  display: inline-block;
+  width: initial;
+}
+
+mjx-stretchy-h > mjx-ext {
+  /* IE */ overflow: hidden;
+  /* others */ overflow: clip visible;
+  width: 100%;
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c::before {
+  transform: scalex(500);
+}
+
+mjx-stretchy-h > mjx-ext > mjx-c {
+  width: 0;
+}
+
+mjx-stretchy-h > mjx-beg > mjx-c {
+  margin-right: -.1em;
+}
+
+mjx-stretchy-h > mjx-end > mjx-c {
+  margin-left: -.1em;
+}
+
+mjx-stretchy-v {
+  display: inline-block;
+}
+
+mjx-stretchy-v > * {
+  display: block;
+}
+
+mjx-stretchy-v > mjx-beg {
+  height: 0;
+}
+
+mjx-stretchy-v > mjx-end > mjx-c {
+  display: block;
+}
+
+mjx-stretchy-v > * > mjx-c {
+  transform: scaley(1.0000001);
+  transform-origin: left center;
+  overflow: hidden;
+}
+
+mjx-stretchy-v > mjx-ext {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+  /* IE */ overflow: hidden;
+  /* others */ overflow: visible clip;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c::before {
+  width: initial;
+  box-sizing: border-box;
+}
+
+mjx-stretchy-v > mjx-ext > mjx-c {
+  transform: scaleY(500) translateY(.075em);
+  overflow: visible;
+}
+
+mjx-mark {
+  display: inline-block;
+  height: 0px;
+}
+
+mjx-c::before {
+  display: block;
+  width: 0;
+}
+
+.MJX-TEX {
+  font-family: MJXZERO, MJXTEX;
+}
+
+.TEX-B {
+  font-family: MJXZERO, MJXTEX-B;
+}
+
+.TEX-I {
+  font-family: MJXZERO, MJXTEX-I;
+}
+
+.TEX-MI {
+  font-family: MJXZERO, MJXTEX-MI;
+}
+
+.TEX-BI {
+  font-family: MJXZERO, MJXTEX-BI;
+}
+
+.TEX-S1 {
+  font-family: MJXZERO, MJXTEX-S1;
+}
+
+.TEX-S2 {
+  font-family: MJXZERO, MJXTEX-S2;
+}
+
+.TEX-S3 {
+  font-family: MJXZERO, MJXTEX-S3;
+}
+
+.TEX-S4 {
+  font-family: MJXZERO, MJXTEX-S4;
+}
+
+.TEX-A {
+  font-family: MJXZERO, MJXTEX-A;
+}
+
+.TEX-C {
+  font-family: MJXZERO, MJXTEX-C;
+}
+
+.TEX-CB {
+  font-family: MJXZERO, MJXTEX-CB;
+}
+
+.TEX-FR {
+  font-family: MJXZERO, MJXTEX-FR;
+}
+
+.TEX-FRB {
+  font-family: MJXZERO, MJXTEX-FRB;
+}
+
+.TEX-SS {
+  font-family: MJXZERO, MJXTEX-SS;
+}
+
+.TEX-SSB {
+  font-family: MJXZERO, MJXTEX-SSB;
+}
+
+.TEX-SSI {
+  font-family: MJXZERO, MJXTEX-SSI;
+}
+
+.TEX-SC {
+  font-family: MJXZERO, MJXTEX-SC;
+}
+
+.TEX-T {
+  font-family: MJXZERO, MJXTEX-T;
+}
+
+.TEX-V {
+  font-family: MJXZERO, MJXTEX-V;
+}
+
+.TEX-VB {
+  font-family: MJXZERO, MJXTEX-VB;
+}
+
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
+  font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+}
+
+@font-face /* 0 */ {
+  font-family: MJXZERO;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+}
+
+@font-face /* 1 */ {
+  font-family: MJXTEX;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+}
+
+@font-face /* 2 */ {
+  font-family: MJXTEX-B;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+}
+
+@font-face /* 3 */ {
+  font-family: MJXTEX-I;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+}
+
+@font-face /* 4 */ {
+  font-family: MJXTEX-MI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+}
+
+@font-face /* 5 */ {
+  font-family: MJXTEX-BI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+}
+
+@font-face /* 6 */ {
+  font-family: MJXTEX-S1;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+}
+
+@font-face /* 7 */ {
+  font-family: MJXTEX-S2;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+}
+
+@font-face /* 8 */ {
+  font-family: MJXTEX-S3;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+}
+
+@font-face /* 9 */ {
+  font-family: MJXTEX-S4;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+}
+
+@font-face /* 10 */ {
+  font-family: MJXTEX-A;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+}
+
+@font-face /* 11 */ {
+  font-family: MJXTEX-C;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+}
+
+@font-face /* 12 */ {
+  font-family: MJXTEX-CB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+}
+
+@font-face /* 13 */ {
+  font-family: MJXTEX-FR;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+}
+
+@font-face /* 14 */ {
+  font-family: MJXTEX-FRB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+}
+
+@font-face /* 15 */ {
+  font-family: MJXTEX-SS;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+}
+
+@font-face /* 16 */ {
+  font-family: MJXTEX-SSB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+}
+
+@font-face /* 17 */ {
+  font-family: MJXTEX-SSI;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+}
+
+@font-face /* 18 */ {
+  font-family: MJXTEX-SC;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+}
+
+@font-face /* 19 */ {
+  font-family: MJXTEX-T;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+}
+
+@font-face /* 20 */ {
+  font-family: MJXTEX-V;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+}
+
+@font-face /* 21 */ {
+  font-family: MJXTEX-VB;
+  src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+}
+
+mjx-c.mjx-c32::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "2";
+}
+
+mjx-c.mjx-c35::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "5";
+}
+
+mjx-c.mjx-c36::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "6";
+}
+
+mjx-c.mjx-c33::before {
+  padding: 0.665em 0.5em 0.022em 0;
+  content: "3";
+}
+
+mjx-c.mjx-cD7::before {
+  padding: 0.491em 0.778em 0 0;
+  content: "\D7";
+}
+
+mjx-c.mjx-c34::before {
+  padding: 0.677em 0.5em 0 0;
+  content: "4";
+}
+
+mjx-c.mjx-c38::before {
+  padding: 0.666em 0.5em 0.022em 0;
+  content: "8";
+}
+
+mjx-c.mjx-c31::before {
+  padding: 0.666em 0.5em 0 0;
+  content: "1";
+}
+</style></head><body><p style="display: none;">Just chekcing that no SEO is included.</p>
+    <!----><!-- No favicon --><link rel="stylesheet" href="./hpdm-web_files/main.css">
+
+
+
+
+
+
+    <link rel="stylesheet" href="./hpdm-web_files/project-page.css">
+
+<div class="project-page page-content" aria-label="Content">
+    <!-- <div class="wrapper"> -->
+        <div class="content-block-wrapper">
+            <div class="content-block">
+<h1 class="project-page-title long-title">Hierarchical Patch Diffusion Models for High-Resolution Video Generation</h1>
+
+
+<h5 class="conference-name">CVPR 2024</h5>
+
+
+<p class="authors-list"><span class="author-link-container"><a class="author-link" href="https://universome.github.io/" target="_blank">Ivan Skorokhodov</a><sup>1,</sup><sup>2</sup></span><span class="author-link-container"><a class="author-link" href="https://www.willimenapace.com/" target="_blank">Willi Menapace</a><sup>1,</sup><sup>3</sup></span><span class="author-link-container"><a class="author-link" href="https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/" target="_blank">Aliaksandr Siarohin</a><sup>1</sup></span><span class="author-link-container"><a class="author-link" href="http://www.stulyakov.com/" target="_blank">Sergey Tulyakov</a><sup>1</sup></span></p>
+
+<!--<h4 class="common-orgs"><span class="common-org-name">
+
+<sup>1</sup><a target="_blank" href="https://research.snap.com">Snap Inc.</a>
+</span><span class="common-org-name">
+
+<sup>2</sup><a target="_blank" href="https://kaust.edu.sa">KAUST</a>
+</span><span class="common-org-name">
+
+<sup>3</sup><a target="_blank" href="https://www.unitn.it/en">University of Trento</a>
+</span></h4>-->
+
+<div class="logos"><img class="logo" src="./hpdm-web_files/snap-logo-small-padding.png" alt="Snap Inc."><img class="logo" src="./hpdm-web_files/kaust-logo.png" alt="KAUST"><img class="logo" src="./hpdm-web_files/utrento.png" alt="University of Trento"></div></div>
+        </div>
+
+        <div class="content-block-wrapper abstract">
+            <div class="content-block">
+                <div class="abstract">
+                    <h2 class="subtitle">Abstract</h2><p>Diffusion models have demonstrated remarkable performance in image and video synthesis. However, scaling them to high-resolution inputs is challenging and requires restructuring the diffusion pipeline into multiple independent components, limiting scalability and complicating downstream applications. This makes it very efficient during training and unlocks end-to-end optimization on high-resolution videos. We improve PDMs in two principled ways. First, to enforce consistency between patches, we develop <i>deep context fusion</i> — an architectural technique that propagates the context information from low-scale to high-scale patches in a hierarchical manner. Second, to accelerate training and inference, we propose <i>adaptive computation</i>, which allocates more network capacity and computation towards coarse image details. The resulting model sets a new state-of-the-art FVD score of 66.32 and Inception Score of 87.68 in class-conditional video generation on UCF-101 <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="0" style="font-size: 110.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-msup><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c36"></mjx-c></mjx-mn><mjx-script style="vertical-align: 0.393em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msup></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>256</mn><mn>2</mn></msup></math></mjx-assistive-mml></mjx-container>, surpassing recent methods by more than 100%. Then, we show that it can be rapidly fine-tuned from a base <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="1" style="font-size: 110.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c33"></mjx-c><mjx-c class="mjx-c36"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-cD7"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c36"></mjx-c><mjx-c class="mjx-c34"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>36</mn><mo>×</mo><mn>64</mn></math></mjx-assistive-mml></mjx-container> low-resolution generator for high-resolution <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="2" style="font-size: 110.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c36"></mjx-c><mjx-c class="mjx-c34"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-cD7"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c32"></mjx-c><mjx-c class="mjx-c38"></mjx-c><mjx-c class="mjx-c38"></mjx-c></mjx-mn><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-cD7"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c35"></mjx-c><mjx-c class="mjx-c31"></mjx-c><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>64</mn><mo>×</mo><mn>288</mn><mo>×</mo><mn>512</mn></math></mjx-assistive-mml></mjx-container> text-to-video synthesis. To the best of our knowledge, our model is the first diffusion-based architecture which is trained on such high resolutions entirely end-to-end.
+</p><div class="youtube-video-container"><iframe src="./hpdm-web_files/bFDu51XPABI.html"></iframe></div><p></p></div>
+                <div class="project-links">
+
+
+
+    <a class="project-link" href="https://github.com/snap-research/hpdm/blob/main/hpdm.pdf" target="_blank">
+        <i class="fas fa-fw fa-lg fa-file-pdf"></i>
+        Paper
+    </a>
+
+
+
+    <span class="project-link inactive" href="">
+        <i class="ai fa-fw fa-lg ai-arxiv"></i>
+        Arxiv (soon)
+    </span>
+
+
+
+
+
+
+
+
+
+
+
+
+    <a class="project-link" href="https://github.com/snap-research/hpdm/blob/main/poster.pdf" target="_blank">
+        <i class="fa fa-columns"></i>
+        Poster
+    </a><a class="project-link" href="https://www.youtube.com/watch?v=bFDu51XPABI" target="_blank">
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        Video
+    </a></div>
+
+            </div>
+        </div>
+
+
+        <div class="content-block-wrapper">
+<div class="content-block section">
+
+
+
+<h2 class="section-title">Existing video diffusion paradigms</h2>
+<div class="section-text">
+            <div class="img-container">
+                <img src="./hpdm-web_files/paradigms-comparison.png" style="width: px">
+
+                    <p class="caption"><span>Comparing existing diffusion paradigms: Latent Diffusion Model (LDM) (upper left), Cascaded Diffusion Model (CDM) (bottom left), and Patch Diffusion Model (this work) during training (upper right) and inference (bottom right). In our work, we develop hierarchical patch diffusion, which never operates on full-resolution inputs, but instead optimizes the lower stages of the hierarchy to produce spatially aligned context information for the later pyramid levels to enforce global consistency between patches.</span></p>
+
+            </div>
+
+            </div>
+</div>
+</div><div class="content-block-wrapper">
+<div class="content-block section">
+
+
+<hr class="hr">
+
+
+<h2 class="section-title">Architecture overview</h2>
+<div class="section-text">
+            <div class="img-container">
+                <img src="./hpdm-web_files/architecture.png" style="width: px">
+
+                    <p class="caption"><span>Architecture overview of HPDM for a 3-level pyramid. The model is trained to denoise all the patches jointly. During training, we use only a single patch from each pyramid level and restrict information propagation in the coarse-to-fine manner. This allows one to synthesize the whole image (or video) at a given resolution patch-by-patch using tiled inference.</span></p>
+
+            </div>
+
+            </div>
+</div>
+</div><div class="content-block-wrapper">
+<div class="content-block section">
+
+
+<hr class="hr">
+
+
+<h2 class="section-title">Quantitative results</h2>
+<div class="section-text">
+            <div class="table-container" style="max-width: 1000px;">
+                <p></p><table><thead> <tr>
+    <th><span>Method</span></th>
+    <th><span>FVD↓</span></th>
+    <th><span>InceptionScore↑</span></th>
+</tr></thead> <tbody> <tr>
+    <td><span>MoCoGAN-HD</span></td>
+    <td><span>700</span></td>
+    <td><span>33.95</span></td>
+</tr> <tr>
+    <td><span>TATS</span></td>
+    <td><span>635</span></td>
+    <td><span>57.63</span></td>
+</tr> <tr>
+    <td><span>VIDM</span></td>
+    <td><span>294.7</span></td>
+    <td><span>-</span></td>
+</tr> <tr>
+    <td><span>PVDM</span></td>
+    <td><span>343.6</span></td>
+    <td><span>74.4</span></td>
+</tr> <tr>
+    <td><span>Make-A-Video</span></td>
+    <td><span>81.25</span></td>
+    <td><span>82.55</span></td>
+</tr> <tr>
+    <td><span>HDPM-S</span></td>
+    <td><span>344.5</span></td>
+    <td><span>73.73</span></td>
+</tr> <tr>
+    <td><span>HPDM-M</span></td>
+    <td><span>143.1</span></td>
+    <td><span>84.29</span></td>
+</tr> <tr>
+    <td><span>HPDM-L</span></td>
+    <td><span>66.32</span></td>
+    <td><span>87.68</span></td>
+</tr> </tbody></table><p></p>
+            </div>
+
+            </div>
+</div>
+</div><div class="content-block-wrapper">
+<div class="content-block section">
+
+
+<hr class="hr">
+
+
+<h2 class="section-title"></h2>
+<div class="section-text">
+            <p class="warning">Note: please, use the latest version of Chrome/Chromium or Safari to watch the videos (alternatively, you can download a video and watch it offline). Some of the videos can be displayed incorrectly in other web browsers (e.g., Firefox).</p></div>
+</div>
+</div><div class="content-block-wrapper">
+<div class="content-block section">
+
+
+<hr class="hr">
+
+
+<h2 class="section-title">Video generation results on UCF101</h2>
+<div class="section-text">
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="1200" class="" preload="auto" src="videos/ucf/random-ours-64-fast.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/ucf/random-ours-64-fast.mp4" style="max-width: px"/> -->
+
+                <p class="caption">HPDM 64x256x256 (ours; <b>random</b> samples)</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="1200" class="" preload="auto" src="videos/ucf/provided-pvdm-128.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/ucf/provided-pvdm-128.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PVDM 128x256x256 (provided samples)</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="1200" class="" preload="auto" src="videos/ucf/provided-pvdm-16.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/ucf/provided-pvdm-16.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PVDM 16x256x256 (provided samples)</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="1200" class="" preload="auto" src="videos/ucf/provided-digan-128.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/ucf/provided-digan-128.mp4" style="max-width: px"/> -->
+
+                <p class="caption">DIGAN 128x128x128 (provided samples)</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="1200" class="" preload="auto" src="videos/ucf/provided-stylegan-v-128.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/ucf/provided-stylegan-v-128.mp4" style="max-width: px"/> -->
+
+                <p class="caption">StyleGAN-V 128x256x256 (provided samples)</p>
+
+            </div>
+
+            </div>
+</div>
+</div><div class="content-block-wrapper">
+<div class="content-block section">
+
+
+<hr class="hr">
+
+
+<h2 class="section-title">Text-to-video generation results (our prompts)</h2>
+<div class="section-text">
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/robot/ours-0-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/robot/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/robot/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours) --- "A robot planting a tree."</span></p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/wolves/ours-0-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/wolves/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/wolves/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/wolves/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours) --- "A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles."</span></p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/egypt/ours-0-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/egypt/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/egypt/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/egypt/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours) --- "A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate."</span></p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/rose/ours-0-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/rose/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/rose/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-ours/rose/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours) --- "A 4K time-lapse of a blooming rose, showing each stage of the flower opening."</span></p>
+
+            </div>
+
+            </div>
+</div>
+</div><div class="content-block-wrapper">
+<div class="content-block section">
+
+
+<hr class="hr">
+
+
+<h2 class="section-title">Text-to-video generation results (comparison)</h2>
+<div class="section-text">
+            <center><h3>A confused grizzly bear in calculus class.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-make-a-video/bear-math/make-a-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-make-a-video/bear-math/make-a-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Make-A-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/bear-math/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/bear-math/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/bear-math/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/bear-math/ours-4-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>Humans building a highway on mars, highly detailed.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-make-a-video/mars-road/make-a-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-make-a-video/mars-road/make-a-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Make-A-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/mars-road/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/mars-road/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/mars-road/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/mars-road/ours-4-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>Sailboat sailing on a sunny day in a mountain lake, highly detailed.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-make-a-video/boat/make-a-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-make-a-video/boat/make-a-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Make-A-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/boat/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/boat/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-make-a-video/boat/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A panda bear driving a car.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-imagen-video/panda-driver/imagen-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-imagen-video/panda-driver/imagen-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Imagen-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/panda-driver/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/panda-driver/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A panda eating bamboo on a rock.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-imagen-video/panda-rock/imagen-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-imagen-video/panda-rock/imagen-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Imagen-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/panda-rock/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/panda-rock/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/panda-rock/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A shark swimming in clear Carribean ocean.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-imagen-video/shark/imagen-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-imagen-video/shark/imagen-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Imagen-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/shark/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A stunning aerial drone footage time lapse of El Capitan in Yosemite National Park at sunset.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-imagen-video/drone/imagen-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-imagen-video/drone/imagen-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Imagen-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/drone/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/drone/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A teddy bear skating in Times Square.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-imagen-video/bear-skating/imagen-video.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-imagen-video/bear-skating/imagen-video.mp4" style="max-width: px"/> -->
+
+                <p class="caption">Imagen-Video</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-imagen-video/bear-skating/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A cute rabbit is eating grass, wildlife photography, photograph, high quality, wildlife, f 1.8, soft focus, 8k, award - winning photograph.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-pyoco/rabbit/pyoco.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-pyoco/rabbit/pyoco.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PYoCo</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/rabbit/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/rabbit/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/rabbit/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/rabbit/ours-4-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A very happy fuzzy panda dressed as a chef eating pizza in the New York street food truck.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-pyoco/panda-pizza/pyoco.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-pyoco/panda-pizza/pyoco.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PYoCo</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/panda-pizza/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/panda-pizza/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/panda-pizza/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/panda-pizza/ours-4-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>The supernova explosion of a white dwarf in the universe, photo realistic, 8k, cinematic lighting, hd, atmospheric, hyperdetailed, photography, glow effect.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-pyoco/cosmos/pyoco.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-pyoco/cosmos/pyoco.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PYoCo</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/cosmos/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/cosmos/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/cosmos/ours-3-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>An epic tornado attacking above a glowing city at night, the tornado is made of smoke, highly detailed.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-pyoco/city-apocalypse/pyoco.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-pyoco/city-apocalypse/pyoco.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PYoCo</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/city-apocalypse/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>Glass sphere filled with swirling multicolored liquid, cinematic lighting.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-pyoco/ball/pyoco.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-pyoco/ball/pyoco.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PYoCo</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/ball/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+
+            <center><h3>A high quality 3D render of hyperrealist, super strong, multicolor stripped, and fluffy bear with wings, highly detailed, sharp focus.</h3></center>
+
+
+            <div class="img-container">
+                <!-- videos -->
+                <div style="text-align: center;">
+
+
+
+
+                    <video style="border: 1px solid black; border-radius: 1px; height: auto;" width="256" class="" preload="auto" src="videos/text2video/prompts-pyoco/bear/pyoco.mp4" type="video/mp4" controls="" loop=""></video>
+                </div>
+                <!-- <img src="/text2video/prompts-pyoco/bear/pyoco.mp4" style="max-width: px"/> -->
+
+                <p class="caption">PYoCo</p>
+
+            </div>
+
+
+            <div class="img-container">
+                <div class="videos-list">
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/bear/ours-1-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                    <div class="video-item">
+                        <video width="256" style="border: 1px solid black; border-radius: 1px;" preload="auto" src="videos/text2video/prompts-pyoco/bear/ours-2-fast.mp4" type="video/mp4" controls="" loop=""></video>
+
+                    </div>
+
+                </div>
+
+                <p class="caption"><span>HPDM-T2V (ours)</span></p>
+
+            </div>
+
+            </div>
+</div>
+</div>
+
+
+    <!-- </div> -->
+</div>
+<div style="display: none;">Just chekcing that no footer is included.</div>
+
+
+
+
+
+
+
+  <script src="./hpdm-web_files/polyfill.min.js"></script>
+  <script id="MathJax-script" async="" src="./hpdm-web_files/tex-mml-chtml.js"></script>
+
+<iframe id="cuw95uQ4" src="./hpdm-web_files/translateSandbox(1).html" frameborder="0" style="width: 0px; height: 0px;"></iframe></body><!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> --><!-- <style>
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+    </style> --><!-- Put this after the content so the page is displayed faster? --></html>

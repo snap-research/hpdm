@@ -1,0 +1,233 @@
+/text2video/prompts-imagen-video/A giraffe underneath a microwave./imagen-video.mp4
+/text2video/prompts-imagen-video/A giraffe underneath a microwave./ours-1-fast.mp4
+/text2video/prompts-imagen-video/A giraffe underneath a microwave./ours-1.mp4
+/text2video/prompts-imagen-video/A giraffe underneath a microwave./ours-2-fast.mp4
+/text2video/prompts-imagen-video/A giraffe underneath a microwave./ours-2.mp4
+/text2video/prompts-imagen-video/A panda bear driving a car./imagen-video.mp4
+/text2video/prompts-imagen-video/A panda bear driving a car./ours-1-fast.mp4
+/text2video/prompts-imagen-video/A panda bear driving a car./ours-1.mp4
+/text2video/prompts-imagen-video/A panda bear driving a car./ours-2-fast.mp4
+/text2video/prompts-imagen-video/A panda bear driving a car./ours-2.mp4
+/text2video/prompts-imagen-video/A panda eating bamboo on a rock./imagen-video.mp4
+/text2video/prompts-imagen-video/A panda eating bamboo on a rock./ours-1-fast.mp4
+/text2video/prompts-imagen-video/A panda eating bamboo on a rock./ours-1.mp4
+/text2video/prompts-imagen-video/A panda eating bamboo on a rock./ours-2-fast.mp4
+/text2video/prompts-imagen-video/A panda eating bamboo on a rock./ours-2.mp4
+/text2video/prompts-imagen-video/A panda eating bamboo on a rock./ours-3-fast.mp4
+/text2video/prompts-imagen-video/A panda eating bamboo on a rock./ours-3.mp4
+/text2video/prompts-imagen-video/A shark swimming in clear Carribean ocean./imagen-video.mp4
+/text2video/prompts-imagen-video/A shark swimming in clear Carribean ocean./ours-1-fast.mp4
+/text2video/prompts-imagen-video/A shark swimming in clear Carribean ocean./ours-1.mp4
+/text2video/prompts-imagen-video/A stunning aerial drone footage time lapse of El Capitan in Yosemite National Park at sunset./imagen-video.mp4
+/text2video/prompts-imagen-video/A stunning aerial drone footage time lapse of El Capitan in Yosemite National Park at sunset./ours-1-fast.mp4
+/text2video/prompts-imagen-video/A stunning aerial drone footage time lapse of El Capitan in Yosemite National Park at sunset./ours-1.mp4
+/text2video/prompts-imagen-video/A stunning aerial drone footage time lapse of El Capitan in Yosemite National Park at sunset./ours-2-fast.mp4
+/text2video/prompts-imagen-video/A stunning aerial drone footage time lapse of El Capitan in Yosemite National Park at sunset./ours-2.mp4
+/text2video/prompts-imagen-video/A teddy bear skating in Times Square./imagen-video.mp4
+/text2video/prompts-imagen-video/A teddy bear skating in Times Square./ours-1-fast.mp4
+/text2video/prompts-imagen-video/A teddy bear skating in Times Square./ours-1.mp4
+/text2video/prompts-imagen-video/A teddy bear washing dishes./imagen-video.mp4
+/text2video/prompts-imagen-video/A teddy bear washing dishes./ours-1-fast.mp4
+/text2video/prompts-imagen-video/A teddy bear washing dishes./ours-1.mp4
+/text2video/prompts-imagen-video/A teddy bear washing dishes./ours-2-fast.mp4
+/text2video/prompts-imagen-video/A teddy bear washing dishes./ours-2.mp4
+/text2video/prompts-imagen-video/A teddy bear washing dishes./ours-3-fast.mp4
+/text2video/prompts-imagen-video/A teddy bear washing dishes./ours-3.mp4
+/text2video/prompts-imagen-video/Aerial view of a snow-covered mountain./imagen-video.mp4
+/text2video/prompts-imagen-video/Aerial view of a snow-covered mountain./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Aerial view of a snow-covered mountain./ours-1.mp4
+/text2video/prompts-imagen-video/Balloon full of water exploding in extreme slow motion./imagen-video.mp4
+/text2video/prompts-imagen-video/Balloon full of water exploding in extreme slow motion./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Balloon full of water exploding in extreme slow motion./ours-1.mp4
+/text2video/prompts-imagen-video/Bird-eye view of a highway in Los Angeles./imagen-video.mp4
+/text2video/prompts-imagen-video/Bird-eye view of a highway in Los Angeles./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Bird-eye view of a highway in Los Angeles./ours-1.mp4
+/text2video/prompts-imagen-video/Bird-eye view of a highway in Los Angeles./ours-2-fast.mp4
+/text2video/prompts-imagen-video/Bird-eye view of a highway in Los Angeles./ours-2.mp4
+/text2video/prompts-imagen-video/Campfire at night in a snowy forest with starry sky in the background./imagen-video.mp4
+/text2video/prompts-imagen-video/Campfire at night in a snowy forest with starry sky in the background./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Campfire at night in a snowy forest with starry sky in the background./ours-1.mp4
+/text2video/prompts-imagen-video/Campfire at night in a snowy forest with starry sky in the background./ours-2-fast.mp4
+/text2video/prompts-imagen-video/Campfire at night in a snowy forest with starry sky in the background./ours-2.mp4
+/text2video/prompts-imagen-video/Coffee pouring into a cup./imagen-video.mp4
+/text2video/prompts-imagen-video/Coffee pouring into a cup./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Coffee pouring into a cup./ours-1.mp4
+/text2video/prompts-imagen-video/Coffee pouring into a cup./ours-2-fast.mp4
+/text2video/prompts-imagen-video/Coffee pouring into a cup./ours-2.mp4
+/text2video/prompts-imagen-video/Coffee pouring into a cup./ours-3-fast.mp4
+/text2video/prompts-imagen-video/Coffee pouring into a cup./ours-3.mp4
+/text2video/prompts-imagen-video/Melting ice cream dripping down the cone./imagen-video.mp4
+/text2video/prompts-imagen-video/Melting ice cream dripping down the cone./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Melting ice cream dripping down the cone./ours-1.mp4
+/text2video/prompts-imagen-video/Pouring latte art into a silver cup with a golden spoon next to it./imagen-video.mp4
+/text2video/prompts-imagen-video/Pouring latte art into a silver cup with a golden spoon next to it./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Pouring latte art into a silver cup with a golden spoon next to it./ours-1.mp4
+/text2video/prompts-imagen-video/Pouring latte art into a silver cup with a golden spoon next to it./ours-2-fast.mp4
+/text2video/prompts-imagen-video/Pouring latte art into a silver cup with a golden spoon next to it./ours-2.mp4
+/text2video/prompts-imagen-video/Shoveling snow./imagen-video.mp4
+/text2video/prompts-imagen-video/Shoveling snow./ours-1-fast.mp4
+/text2video/prompts-imagen-video/Shoveling snow./ours-1.mp4
+/text2video/prompts-imagen-video/View of a castle with fantastically high towers reaching into the clouds in a hilly forest at dawn./imagen-video.mp4
+/text2video/prompts-imagen-video/View of a castle with fantastically high towers reaching into the clouds in a hilly forest at dawn./ours-1-fast.mp4
+/text2video/prompts-imagen-video/View of a castle with fantastically high towers reaching into the clouds in a hilly forest at dawn./ours-1.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/make-a-video.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-1-fast.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-1.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-2-fast.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-2.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-3-fast.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-3.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-4-fast.mp4
+/text2video/prompts-make-a-video/A confused grizzly bear in calculus class/ours-4.mp4
+/text2video/prompts-make-a-video/A golden retriever eating ice cream on a beautiful tropical beach at sunset, high resolution/make-a-video.mp4
+/text2video/prompts-make-a-video/A golden retriever eating ice cream on a beautiful tropical beach at sunset, high resolution/ours-1-fast.mp4
+/text2video/prompts-make-a-video/A golden retriever eating ice cream on a beautiful tropical beach at sunset, high resolution/ours-1.mp4
+/text2video/prompts-make-a-video/A golden retriever eating ice cream on a beautiful tropical beach at sunset, high resolution/ours-2-fast.mp4
+/text2video/prompts-make-a-video/A golden retriever eating ice cream on a beautiful tropical beach at sunset, high resolution/ours-2.mp4
+/text2video/prompts-make-a-video/A musk ox grazing on beautiful wildflowers/make-a-video.mp4
+/text2video/prompts-make-a-video/A musk ox grazing on beautiful wildflowers/ours-1-fast.mp4
+/text2video/prompts-make-a-video/A musk ox grazing on beautiful wildflowers/ours-1.mp4
+/text2video/prompts-make-a-video/A musk ox grazing on beautiful wildflowers/ours-2-fast.mp4
+/text2video/prompts-make-a-video/A musk ox grazing on beautiful wildflowers/ours-2.mp4
+/text2video/prompts-make-a-video/A panda playing on a swing set/make-a-video.mp4
+/text2video/prompts-make-a-video/A panda playing on a swing set/ours-1-fast.mp4
+/text2video/prompts-make-a-video/A panda playing on a swing set/ours-1.mp4
+/text2video/prompts-make-a-video/A panda playing on a swing set/ours-2-fast.mp4
+/text2video/prompts-make-a-video/A panda playing on a swing set/ours-2.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/make-a-video.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-1-fast.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-1.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-2-fast.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-2.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-3-fast.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-3.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-4-fast.mp4
+/text2video/prompts-make-a-video/Humans building a highway on mars, highly detailed/ours-4.mp4
+/text2video/prompts-make-a-video/Sailboat sailing on a sunny day in a mountain lake, highly detailed/make-a-video.mp4
+/text2video/prompts-make-a-video/Sailboat sailing on a sunny day in a mountain lake, highly detailed/ours-1-fast.mp4
+/text2video/prompts-make-a-video/Sailboat sailing on a sunny day in a mountain lake, highly detailed/ours-1.mp4
+/text2video/prompts-make-a-video/Sailboat sailing on a sunny day in a mountain lake, highly detailed/ours-2-fast.mp4
+/text2video/prompts-make-a-video/Sailboat sailing on a sunny day in a mountain lake, highly detailed/ours-2.mp4
+/text2video/prompts-make-a-video/Sailboat sailing on a sunny day in a mountain lake, highly detailed/ours-3-fast.mp4
+/text2video/prompts-make-a-video/Sailboat sailing on a sunny day in a mountain lake, highly detailed/ours-3.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-0-fast.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-0.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-1-fast.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-1.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-2-fast.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-2.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-3-fast.mp4
+/text2video/prompts-ours/A 4K time-lapse of a blooming rose, showing each stage of the flower opening./ours-3.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-0-fast.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-0.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-1-fast.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-1.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-2-fast.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-2.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-3-fast.mp4
+/text2video/prompts-ours/A detailed animation of an ancient Egyptian city, with the Nile river and pyramids, 4K, historically accurate./ours-3.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-0-fast.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-0.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-1-fast.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-1.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-2-fast.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-2.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-3-fast.mp4
+/text2video/prompts-ours/A high-definition video of a pack of wolves hunting in a snowy forest, natural behavior, dynamic angles./ours-3.mp4
+/text2video/prompts-ours/A hot air balloon floating over a mountain range./ours-0-fast.mp4
+/text2video/prompts-ours/A hot air balloon floating over a mountain range./ours-0.mp4
+/text2video/prompts-ours/A hot air balloon floating over a mountain range./ours-1-fast.mp4
+/text2video/prompts-ours/A hot air balloon floating over a mountain range./ours-1.mp4
+/text2video/prompts-ours/A hot air balloon floating over a mountain range./ours-2-fast.mp4
+/text2video/prompts-ours/A hot air balloon floating over a mountain range./ours-2.mp4
+/text2video/prompts-ours/A robot planting a tree./ours-0-fast.mp4
+/text2video/prompts-ours/A robot planting a tree./ours-0.mp4
+/text2video/prompts-ours/A robot planting a tree./ours-1-fast.mp4
+/text2video/prompts-ours/A robot planting a tree./ours-1.mp4
+/text2video/prompts-ours/A robot planting a tree./ours-2-fast.mp4
+/text2video/prompts-ours/A robot planting a tree./ours-2.mp4
+/text2video/prompts-ours/An ultra-realistic 3D animation of a hummingbird hovering in a garden of vibrant flowers, slow motion, 8K./ours-0-fast.mp4
+/text2video/prompts-ours/An ultra-realistic 3D animation of a hummingbird hovering in a garden of vibrant flowers, slow motion, 8K./ours-0.mp4
+/text2video/prompts-ours/An ultra-realistic 3D animation of a hummingbird hovering in a garden of vibrant flowers, slow motion, 8K./ours-1-fast.mp4
+/text2video/prompts-ours/An ultra-realistic 3D animation of a hummingbird hovering in a garden of vibrant flowers, slow motion, 8K./ours-1.mp4
+/text2video/prompts-pyoco/anime/ours-1-fast.mp4
+/text2video/prompts-pyoco/anime/ours-1.mp4
+/text2video/prompts-pyoco/anime/pyoco.mp4
+/text2video/prompts-pyoco/ball/ours-1-fast.mp4
+/text2video/prompts-pyoco/ball/ours-1.mp4
+/text2video/prompts-pyoco/ball/pyoco.mp4
+/text2video/prompts-pyoco/bear/ours-1-fast.mp4
+/text2video/prompts-pyoco/bear/ours-1.mp4
+/text2video/prompts-pyoco/bear/ours-2-fast.mp4
+/text2video/prompts-pyoco/bear/ours-2.mp4
+/text2video/prompts-pyoco/bear/pyoco.mp4
+/text2video/prompts-pyoco/berries/ours-1-fast.mp4
+/text2video/prompts-pyoco/berries/ours-1.mp4
+/text2video/prompts-pyoco/berries/ours-2-fast.mp4
+/text2video/prompts-pyoco/berries/ours-2.mp4
+/text2video/prompts-pyoco/berries/pyoco.mp4
+/text2video/prompts-pyoco/chihuahua/ours-1-fast.mp4
+/text2video/prompts-pyoco/chihuahua/ours-1.mp4
+/text2video/prompts-pyoco/chihuahua/pyoco.mp4
+/text2video/prompts-pyoco/city-apocalypse/ours-1-fast.mp4
+/text2video/prompts-pyoco/city-apocalypse/ours-1.mp4
+/text2video/prompts-pyoco/city-apocalypse/pyoco.mp4
+/text2video/prompts-pyoco/cosmos/ours-1-fast.mp4
+/text2video/prompts-pyoco/cosmos/ours-1.mp4
+/text2video/prompts-pyoco/cosmos/ours-2-fast.mp4
+/text2video/prompts-pyoco/cosmos/ours-2.mp4
+/text2video/prompts-pyoco/cosmos/ours-3-fast.mp4
+/text2video/prompts-pyoco/cosmos/ours-3.mp4
+/text2video/prompts-pyoco/cosmos/pyoco.mp4
+/text2video/prompts-pyoco/dinosaur/ours-1-fast.mp4
+/text2video/prompts-pyoco/dinosaur/ours-1.mp4
+/text2video/prompts-pyoco/dinosaur/pyoco.mp4
+/text2video/prompts-pyoco/drone/ours-1-fast.mp4
+/text2video/prompts-pyoco/drone/ours-1.mp4
+/text2video/prompts-pyoco/drone/pyoco.mp4
+/text2video/prompts-pyoco/fries/ours-1-fast.mp4
+/text2video/prompts-pyoco/fries/ours-1.mp4
+/text2video/prompts-pyoco/fries/ours-2-fast.mp4
+/text2video/prompts-pyoco/fries/ours-2.mp4
+/text2video/prompts-pyoco/fries/pyoco.mp4
+/text2video/prompts-pyoco/jar-fire/ours-1-fast.mp4
+/text2video/prompts-pyoco/jar-fire/ours-1.mp4
+/text2video/prompts-pyoco/jar-fire/ours-2-fast.mp4
+/text2video/prompts-pyoco/jar-fire/ours-2.mp4
+/text2video/prompts-pyoco/jar-fire/ours-3-fast.mp4
+/text2video/prompts-pyoco/jar-fire/ours-3.mp4
+/text2video/prompts-pyoco/jar-fire/pyoco.mp4
+/text2video/prompts-pyoco/jar-hurricane/ours-1-fast.mp4
+/text2video/prompts-pyoco/jar-hurricane/ours-1.mp4
+/text2video/prompts-pyoco/jar-hurricane/ours-2-fast.mp4
+/text2video/prompts-pyoco/jar-hurricane/ours-2.mp4
+/text2video/prompts-pyoco/jar-hurricane/pyoco.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-1-fast.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-1.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-2-fast.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-2.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-3-fast.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-3.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-4-fast.mp4
+/text2video/prompts-pyoco/panda-pizza/ours-4.mp4
+/text2video/prompts-pyoco/panda-pizza/pyoco.mp4
+/text2video/prompts-pyoco/rabbit/ours-1-fast.mp4
+/text2video/prompts-pyoco/rabbit/ours-1.mp4
+/text2video/prompts-pyoco/rabbit/ours-2-fast.mp4
+/text2video/prompts-pyoco/rabbit/ours-2.mp4
+/text2video/prompts-pyoco/rabbit/ours-3-fast.mp4
+/text2video/prompts-pyoco/rabbit/ours-3.mp4
+/text2video/prompts-pyoco/rabbit/ours-4-fast.mp4
+/text2video/prompts-pyoco/rabbit/ours-4.mp4
+/text2video/prompts-pyoco/rabbit/pyoco.mp4
+/text2video/prompts-pyoco/room/ours-1-fast.mp4
+/text2video/prompts-pyoco/room/ours-1.mp4
+/text2video/prompts-pyoco/room/pyoco.mp4
+/text2video/prompts-pyoco/skull/ours-1-fast.mp4
+/text2video/prompts-pyoco/skull/ours-1.mp4
+/text2video/prompts-pyoco/skull/pyoco.mp4
+/text2video/prompts-pyoco/steak/ours-1-fast.mp4
+/text2video/prompts-pyoco/steak/ours-1.mp4
+/text2video/prompts-pyoco/steak/ours-2-fast.mp4
+/text2video/prompts-pyoco/steak/ours-2.mp4
+/text2video/prompts-pyoco/steak/pyoco.mp4
